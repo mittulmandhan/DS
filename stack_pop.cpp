@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<malloc.h>
 
+
 struct stack {
 		int data;
 		struct stack * prev;

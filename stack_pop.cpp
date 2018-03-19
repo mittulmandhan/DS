@@ -7,6 +7,7 @@ struct stack {
 		struct stack * prev;
 };
 
+
  void push(struct stack *top , int data) {
 	struct stack *temp ;
 	temp->data=data;
